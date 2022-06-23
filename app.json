@@ -1,0 +1,95 @@
+{
+    "name": "🇧𝐠𝐭𝐗🇲𝐮𝐬𝐢𝐜🇧𝐨𝐭",
+    "logo": "https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg",
+    "description": "🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐚𝐧𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐂 ✨",
+    "keywords": ["bgtxmusicbot", "voice chat", "telegram"],
+    "repository": "https://github.com/IambikashHalder/bgtxmusicbot",
+    "stack": "container",
+    "env": {
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "required": true
+        },
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "اسم حساب المساعد",
+            "required": true,
+            "value": "ELLIOT"
+        },
+        "ASSISTANT_USERNAME": {
+            "description": "يوزر الحساب المساعد بدون @",
+            "required": true,
+            "value": "CV_B1"
+        },
+        "BOT_IMAGE": {
+            "description": "صوره البوت",
+            "required": true,
+            "value": "https://telegra.ph/file/50f5cfbd494b902b74f1a.jpg"
+        },
+        "BOT_NAME": {
+            "description": "اسم البوت",
+            "required": true,
+            "value": "ELLIOT MUSIC"
+        },
+        "BOT_TOKEN": {
+            "description": "توكن البوت",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت",
+            "required": true,
+            "value": "CB_RBOT"
+        },
+        "DURATION_LIMIT": {
+            "description": "اتركها كما هيا",
+            "required": true,
+            "value": "300"
+        },
+        "OWNER_NAME": {
+            "description": "اسم المالك",
+            "required": true,
+            "value": "ELLIOT"
+        },
+        "OWNER_USERNAME": {
+            "description": "معرف المالك بدون @",
+            "required": true,
+            "value": "T_8_T_T"
+        },
+        "SOURCE_CODE": {
+            "description": "اتركها كما هيا ولا تغيرها.",
+            "required": true,
+            "value": "https://dashboard.heroku.com/new?template=https://github.com/THUNDERMUSICC/MUSIC-TO-BACK.git"
+        },
+        "STRING_SESSION": {
+            "description": "كود البايروجرام",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "ايدي الادمنيه",
+            "required": true,
+            "value": "1439222689"
+            
+        },
+        "SUPPORT_GROUP": {
+            "description": "رابط جروب الدعم ",
+            "required": true,
+            "value": "https://t.me/CHVOTLX"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "رابط قناة التحديثات",
+            "required": true,
+            "value": "https://t.me/T_HUNDER"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
