@@ -26,8 +26,8 @@ SOURCE_CODE = getenv("SOURCE_CODE", "https://dashboard.heroku.com/new?template=h
 STRING_SESSION = getenv("STRING_SESSION", "session")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1439222689").split()))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/CHVOTLX")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/T_HUNDER")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/X_8_00")
 
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/EITHON1")
+PROFILE_CHANNEL = getenv("PROFILE_CHANNEL", "https://t.me/X_8_00")
