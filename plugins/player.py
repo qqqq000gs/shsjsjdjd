@@ -199,8 +199,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/t_hunder")
+                            text="😎 السورس",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -252,8 +252,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/t_hunder")
+                            text="😎 السورس",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 ثيندر",
-                            url=f"https://t.me/T_hunder")
+                            text="😎 السورس",
+                            url=f"https://t.me/X_8_00")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎ايثون",
+                            text="😎السورس",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
