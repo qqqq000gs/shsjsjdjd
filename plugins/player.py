@@ -101,7 +101,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"تشغيل بواسطة: M7MD & ELLIOT  (@TTTLL0 @T_8_T_T)",
+        f"powerd by: M7MD & ELLIOT  (@TTTLL0 @T_8_T_T)",
         (255, 255, 255),
         font=font,
     )
@@ -282,8 +282,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎ايثون",
-                            url=f"https://t.me/EITHON1")
+                            text="😎 ثيندر",
+                            url=f"https://t.me/T_hunder")
                    
                 ]
             ]
@@ -302,7 +302,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**اعطني اسم اغنيه 😍\n💞 حتا ابدا...**"
             )
-        await lel.edit("**🔄 جاي المعالجه ...**")
+        await lel.edit("**🔄 جاري المعالجه ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -449,7 +449,7 @@ async def skip(_, message: Message):
 
 
 
-@Client.on_message(commandpro(["end", "/end", "!end", ".end", "stop", "/stop", ".stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["end", "/end", "!end", ".end", "stop", "/stop", ".stop", "انهاء", "x"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -460,11 +460,11 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+    await message.reply_text("**❌ تم الانهاء 🌷 ...**"
     )
 
 
-@Client.on_message(commandpro(["reload", ".reload", "/reload", "!reload", "/admincache"]))
+@Client.on_message(commandpro(["اعادة تحميل", ".reload", "/reload", "!reload", "/admincache"]))
 @errors
 @authorized_users_only
 async def update_admin(client, message):
@@ -475,4 +475,4 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
+    await message.reply_text("**🔥 تم اعادة التحميل 🌷 ...**")
